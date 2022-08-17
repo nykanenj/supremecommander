@@ -1,0 +1,1529 @@
+PreGameData = {
+    CurrentMapDir = '/maps/scmp_012',
+    IconReplacements = { }
+}
+Options = {
+    Log = {
+        Debug = false,
+        Warn = false,
+        Info = false,
+        Custom = false,
+        Error = false,
+        Filter = '*debug:'
+    }
+}
+CPUBenchmark = 105
+options_overrides = {
+    fidelity = {
+        default = 1,
+        custom = {
+            states = {
+                {
+                    text = '<LOC _Low>',
+                    key = 0
+                },
+                {
+                    text = '<LOC _Medium>',
+                    key = 1
+                },
+                {
+                    text = '<LOC _High>',
+                    key = 2
+                }
+            }
+        }
+    },
+    shadow_quality = {
+        default = 1,
+        custom = {
+            states = {
+                {
+                    text = '<LOC _Off>',
+                    key = 0
+                },
+                {
+                    text = '<LOC _Low>',
+                    key = 1
+                },
+                {
+                    text = '<LOC _Medium>',
+                    key = 2
+                },
+                {
+                    text = '<LOC _High>',
+                    key = 3
+                }
+            }
+        }
+    },
+    primary_adapter = {
+        default = '1024,768,60',
+        custom = {
+            states = {
+                {
+                    text = '<LOC OPTIONS_0070>Windowed',
+                    key = 'windowed'
+                },
+                {
+                    text = '1360x768(60)',
+                    key = '1360,768,60'
+                },
+                {
+                    text = '1360x768(59)',
+                    key = '1360,768,59'
+                },
+                {
+                    text = '1360x768(75)',
+                    key = '1360,768,75'
+                },
+                {
+                    text = '2560x1440(59)',
+                    key = '2560,1440,59'
+                },
+                {
+                    text = '2560x1440(60)',
+                    key = '2560,1440,60'
+                },
+                {
+                    text = '2560x1440(75)',
+                    key = '2560,1440,75'
+                },
+                {
+                    text = '1280x1024(75)',
+                    key = '1280,1024,75'
+                },
+                {
+                    text = '1280x1024(60)',
+                    key = '1280,1024,60'
+                },
+                {
+                    text = '1280x1024(59)',
+                    key = '1280,1024,59'
+                },
+                {
+                    text = '1024x768(75)',
+                    key = '1024,768,75'
+                },
+                {
+                    text = '1024x768(70)',
+                    key = '1024,768,70'
+                },
+                {
+                    text = '1024x768(60)',
+                    key = '1024,768,60'
+                },
+                {
+                    text = '1024x768(59)',
+                    key = '1024,768,59'
+                },
+                {
+                    text = '1280x960(60)',
+                    key = '1280,960,60'
+                },
+                {
+                    text = '1280x960(59)',
+                    key = '1280,960,59'
+                },
+                {
+                    text = '1280x960(75)',
+                    key = '1280,960,75'
+                },
+                {
+                    text = '1600x1200(60)',
+                    key = '1600,1200,60'
+                },
+                {
+                    text = '1600x1200(59)',
+                    key = '1600,1200,59'
+                },
+                {
+                    text = '1600x1200(75)',
+                    key = '1600,1200,75'
+                },
+                {
+                    text = '1920x1080(60)',
+                    key = '1920,1080,60'
+                },
+                {
+                    text = '1920x1080(75)',
+                    key = '1920,1080,75'
+                },
+                {
+                    text = '1920x1080(50)',
+                    key = '1920,1080,50'
+                },
+                {
+                    text = '1920x1080(24)',
+                    key = '1920,1080,24'
+                },
+                {
+                    text = '1920x1080(25)',
+                    key = '1920,1080,25'
+                },
+                {
+                    text = '1920x1080(30)',
+                    key = '1920,1080,30'
+                },
+                {
+                    text = '1920x1080(59)',
+                    key = '1920,1080,59'
+                },
+                {
+                    text = '1920x1080(23)',
+                    key = '1920,1080,23'
+                },
+                {
+                    text = '1920x1080(29)',
+                    key = '1920,1080,29'
+                },
+                {
+                    text = '1152x864(59)',
+                    key = '1152,864,59'
+                },
+                {
+                    text = '1152x864(60)',
+                    key = '1152,864,60'
+                },
+                {
+                    text = '1152x864(75)',
+                    key = '1152,864,75'
+                },
+                {
+                    text = '1280x768(59)',
+                    key = '1280,768,59'
+                },
+                {
+                    text = '1280x768(60)',
+                    key = '1280,768,60'
+                },
+                {
+                    text = '1280x768(75)',
+                    key = '1280,768,75'
+                },
+                {
+                    text = '1280x800(59)',
+                    key = '1280,800,59'
+                },
+                {
+                    text = '1280x800(60)',
+                    key = '1280,800,60'
+                },
+                {
+                    text = '1280x800(75)',
+                    key = '1280,800,75'
+                },
+                {
+                    text = '1366x768(59)',
+                    key = '1366,768,59'
+                },
+                {
+                    text = '1366x768(60)',
+                    key = '1366,768,60'
+                },
+                {
+                    text = '1366x768(75)',
+                    key = '1366,768,75'
+                },
+                {
+                    text = '1400x1050(59)',
+                    key = '1400,1050,59'
+                },
+                {
+                    text = '1400x1050(60)',
+                    key = '1400,1050,60'
+                },
+                {
+                    text = '1400x1050(75)',
+                    key = '1400,1050,75'
+                },
+                {
+                    text = '1440x900(59)',
+                    key = '1440,900,59'
+                },
+                {
+                    text = '1440x900(60)',
+                    key = '1440,900,60'
+                },
+                {
+                    text = '1440x900(75)',
+                    key = '1440,900,75'
+                },
+                {
+                    text = '1600x900(59)',
+                    key = '1600,900,59'
+                },
+                {
+                    text = '1600x900(60)',
+                    key = '1600,900,60'
+                },
+                {
+                    text = '1600x900(75)',
+                    key = '1600,900,75'
+                },
+                {
+                    text = '1680x1050(59)',
+                    key = '1680,1050,59'
+                },
+                {
+                    text = '1680x1050(60)',
+                    key = '1680,1050,60'
+                },
+                {
+                    text = '1680x1050(75)',
+                    key = '1680,1050,75'
+                },
+                {
+                    text = '1792x1344(59)',
+                    key = '1792,1344,59'
+                },
+                {
+                    text = '1792x1344(60)',
+                    key = '1792,1344,60'
+                },
+                {
+                    text = '1792x1344(75)',
+                    key = '1792,1344,75'
+                },
+                {
+                    text = '1856x1392(59)',
+                    key = '1856,1392,59'
+                },
+                {
+                    text = '1856x1392(60)',
+                    key = '1856,1392,60'
+                },
+                {
+                    text = '1856x1392(75)',
+                    key = '1856,1392,75'
+                },
+                {
+                    text = '1920x1200(59)',
+                    key = '1920,1200,59'
+                },
+                {
+                    text = '1920x1200(60)',
+                    key = '1920,1200,60'
+                },
+                {
+                    text = '1920x1200(75)',
+                    key = '1920,1200,75'
+                },
+                {
+                    text = '1920x1440(59)',
+                    key = '1920,1440,59'
+                },
+                {
+                    text = '1920x1440(60)',
+                    key = '1920,1440,60'
+                },
+                {
+                    text = '1920x1440(75)',
+                    key = '1920,1440,75'
+                },
+                {
+                    text = '2048x1152(59)',
+                    key = '2048,1152,59'
+                },
+                {
+                    text = '2048x1152(60)',
+                    key = '2048,1152,60'
+                },
+                {
+                    text = '2048x1152(75)',
+                    key = '2048,1152,75'
+                }
+            }
+        }
+    },
+    antialiasing = {
+        default = 0,
+        custom = {
+            states = {
+                {
+                    text = '<LOC OPTIONS_0029>Off',
+                    key = 0
+                },
+                {
+                    text = '2',
+                    key = 64
+                },
+                {
+                    text = '4',
+                    key = 128
+                },
+                {
+                    text = '8Q',
+                    key = 256
+                }
+            }
+        }
+    },
+    language = 'us',
+    secondary_adapter = {
+        default = 'disabled',
+        custom = {
+            states = {
+                {
+                    text = '<LOC _Disabled>',
+                    key = 'disabled'
+                }
+            }
+        }
+    }
+}
+profile = {
+    current = 1,
+    profiles = {
+        {
+            console_size = 5,
+            build_templates = {
+                {
+                    templateData = {
+                        3,
+                        6,
+                        {
+                            'urb5101',
+                            23625,
+                            0,
+                            0
+                        },
+                        {
+                            'urb5101',
+                            23662,
+                            0,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            23683,
+                            0,
+                            2
+                        },
+                        {
+                            'urb5101',
+                            23698,
+                            -1,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            23713,
+                            1,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            23729,
+                            0,
+                            3
+                        },
+                        {
+                            'urb5101',
+                            23744,
+                            0,
+                            4
+                        },
+                        {
+                            'urb5101',
+                            23767,
+                            0,
+                            5
+                        },
+                        {
+                            'urb5101',
+                            23792,
+                            -1,
+                            4
+                        },
+                        {
+                            'urb5101',
+                            23808,
+                            1,
+                            4
+                        }
+                    },
+                    name = 'Wall Section',
+                    icon = 'urb5101'
+                },
+                {
+                    templateData = {
+                        3,
+                        3,
+                        {
+                            'urb5101',
+                            23856,
+                            0,
+                            0
+                        },
+                        {
+                            'urb5101',
+                            23876,
+                            0,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            23891,
+                            0,
+                            2
+                        },
+                        {
+                            'urb5101',
+                            23907,
+                            -1,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            23922,
+                            1,
+                            1
+                        }
+                    },
+                    name = 'Wall Section',
+                    icon = 'urb5101'
+                },
+                {
+                    templateData = {
+                        3,
+                        3,
+                        {
+                            'urb2101',
+                            25814,
+                            0,
+                            0
+                        },
+                        {
+                            'urb5101',
+                            26076,
+                            0,
+                            -1
+                        },
+                        {
+                            'urb5101',
+                            26093,
+                            0,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            26109,
+                            -1,
+                            0
+                        },
+                        {
+                            'urb5101',
+                            26125,
+                            1,
+                            0
+                        }
+                    },
+                    name = 'Point Defense',
+                    icon = 'urb2101'
+                },
+                {
+                    templateData = {
+                        3,
+                        6,
+                        {
+                            'urb2101',
+                            25814,
+                            0,
+                            0
+                        },
+                        {
+                            'urb5101',
+                            26076,
+                            0,
+                            -1
+                        },
+                        {
+                            'urb5101',
+                            26093,
+                            0,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            26109,
+                            -1,
+                            0
+                        },
+                        {
+                            'urb5101',
+                            26125,
+                            1,
+                            0
+                        },
+                        {
+                            'urb5101',
+                            26141,
+                            0,
+                            2
+                        },
+                        {
+                            'urb5101',
+                            26157,
+                            0,
+                            4
+                        },
+                        {
+                            'urb5101',
+                            26180,
+                            -1,
+                            3
+                        },
+                        {
+                            'urb5101',
+                            26204,
+                            1,
+                            3
+                        },
+                        {
+                            'urb2101',
+                            26227,
+                            0,
+                            3
+                        }
+                    },
+                    name = 'Point Defense',
+                    icon = 'urb2101'
+                },
+                {
+                    templateData = {
+                        18,
+                        18,
+                        {
+                            'urb1101',
+                            46017,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            46026,
+                            0,
+                            4
+                        },
+                        {
+                            'urb1101',
+                            46035,
+                            -4,
+                            4
+                        },
+                        {
+                            'urb1101',
+                            46044,
+                            -4,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            46053,
+                            -8,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            46067,
+                            -8,
+                            4
+                        },
+                        {
+                            'urb1101',
+                            46138,
+                            -12,
+                            4
+                        },
+                        {
+                            'urb1101',
+                            46147,
+                            -12,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            46156,
+                            -16,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            46165,
+                            -16,
+                            4
+                        },
+                        {
+                            'urb1101',
+                            46174,
+                            -16,
+                            8
+                        },
+                        {
+                            'urb1101',
+                            46182,
+                            -12,
+                            8
+                        },
+                        {
+                            'urb1101',
+                            46190,
+                            -12,
+                            12
+                        },
+                        {
+                            'urb1101',
+                            46257,
+                            -16,
+                            12
+                        },
+                        {
+                            'urb1101',
+                            46265,
+                            -16,
+                            16
+                        },
+                        {
+                            'urb1101',
+                            46273,
+                            -12,
+                            16
+                        },
+                        {
+                            'urb1101',
+                            46281,
+                            -8,
+                            16
+                        },
+                        {
+                            'urb1101',
+                            46289,
+                            -8,
+                            12
+                        },
+                        {
+                            'urb1101',
+                            46319,
+                            -8,
+                            8
+                        },
+                        {
+                            'urb1101',
+                            46330,
+                            -4,
+                            8
+                        },
+                        {
+                            'urb1101',
+                            46340,
+                            -4,
+                            12
+                        },
+                        {
+                            'urb1101',
+                            46349,
+                            -4,
+                            16
+                        },
+                        {
+                            'urb1101',
+                            46429,
+                            0,
+                            16
+                        },
+                        {
+                            'urb1101',
+                            46437,
+                            0,
+                            12
+                        },
+                        {
+                            'urb1101',
+                            46445,
+                            0,
+                            8
+                        }
+                    },
+                    name = 'Power Generator',
+                    icon = 'urb1101'
+                },
+                {
+                    templateData = {
+                        3,
+                        6,
+                        {
+                            'urb5101',
+                            47412,
+                            0,
+                            0
+                        },
+                        {
+                            'urb5101',
+                            47436,
+                            -1,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            47439,
+                            0,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            47442,
+                            1,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            47445,
+                            0,
+                            2
+                        },
+                        {
+                            'urb5101',
+                            47448,
+                            0,
+                            3
+                        },
+                        {
+                            'urb2101',
+                            47493,
+                            0,
+                            4
+                        },
+                        {
+                            'urb5101',
+                            47561,
+                            -1,
+                            4
+                        },
+                        {
+                            'urb5101',
+                            47564,
+                            0,
+                            5
+                        },
+                        {
+                            'urb5101',
+                            47568,
+                            1,
+                            4
+                        }
+                    },
+                    name = 'Wall Section',
+                    icon = 'urb2101'
+                },
+                {
+                    templateData = {
+                        7,
+                        5,
+                        {
+                            'urb5101',
+                            48392,
+                            0,
+                            0
+                        },
+                        {
+                            'urb5101',
+                            48396,
+                            0,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            48399,
+                            0,
+                            2
+                        },
+                        {
+                            'urb5101',
+                            48405,
+                            1,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            48414,
+                            -1,
+                            1
+                        },
+                        {
+                            'urb5101',
+                            48430,
+                            -2,
+                            2
+                        },
+                        {
+                            'urb5101',
+                            48433,
+                            -2,
+                            3
+                        },
+                        {
+                            'urb5101',
+                            48436,
+                            -2,
+                            4
+                        },
+                        {
+                            'urb5101',
+                            48439,
+                            -3,
+                            3
+                        },
+                        {
+                            'urb5101',
+                            48443,
+                            -1,
+                            3
+                        },
+                        {
+                            'urb5101',
+                            48452,
+                            1,
+                            3
+                        },
+                        {
+                            'urb5101',
+                            48597,
+                            2,
+                            3
+                        },
+                        {
+                            'urb5101',
+                            48600,
+                            3,
+                            3
+                        },
+                        {
+                            'urb5101',
+                            48603,
+                            2,
+                            2
+                        },
+                        {
+                            'urb5101',
+                            48606,
+                            2,
+                            4
+                        }
+                    },
+                    name = 'Wall Section',
+                    icon = 'urb5101'
+                },
+                {
+                    templateData = {
+                        6,
+                        6,
+                        {
+                            'urb3101',
+                            49222,
+                            0,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            49274,
+                            0,
+                            -2
+                        },
+                        {
+                            'urb1101',
+                            49288,
+                            0,
+                            2
+                        },
+                        {
+                            'urb1101',
+                            49302,
+                            -2,
+                            0
+                        },
+                        {
+                            'urb1101',
+                            49316,
+                            2,
+                            0
+                        }
+                    },
+                    name = 'Radar System',
+                    icon = 'urb3101'
+                }
+            },
+            LobbyOpt_CivilianAlliance = 'enemy',
+            LastColorFAF = 1,
+            UserDebugKeyMap = {
+                ['Ctrl-Alt-F5'] = 'debug_scenario_method_ctrl_alt_f5',
+                ['Ctrl-Alt-B'] = 'debug_blingbling',
+                ['Shift-F4'] = 'debug_scenario_method_shift_f4',
+                ['Shift-F5'] = 'debug_scenario_method_shift_f5',
+                ['Ctrl-Shift-F5'] = 'debug_scenario_method_f5',
+                ['Ctrl-Slash'] = 'debug_pause_single_step',
+                ['Alt-T'] = 'debug_teleport',
+                ['Ctrl-Alt-Shift-F8'] = 'debug_campaign_instawin',
+                ['Alt-F9'] = 'debug_open_lua_debugger',
+                ['Ctrl-Shift-Alt-C'] = 'debug_collision',
+                ['Alt-W'] = 'debug_dump_focus_ui_control',
+                ['Ctrl-Shift-C'] = 'debug_copy_units',
+                ['Ctrl-F3'] = 'debug_scenario_method_ctrl_f3',
+                ['Alt-Delete'] = 'debug_destroy_units',
+                ['Alt-D'] = 'debug_dump_ui_controls',
+                ['Ctrl-Alt-P'] = 'debug_navpath',
+                ['Ctrl-Alt-Period'] = 'debug_graphics_fidelity_2',
+                ['Ctrl-Alt-Z'] = 'debug_sally_shears',
+                ['Shift-F6'] = 'debug_create_entity',
+                ['Ctrl-Shift-X'] = 'debug_redo_console_command',
+                ['Ctrl-Alt-Comma'] = 'debug_graphics_fidelity_0',
+                ['Shift-F7'] = 'debug_show_stats',
+                ['Alt-B'] = 'debug_bones',
+                ['Ctrl-Alt-O'] = 'debug_grid',
+                ['Ctrl-Alt-E'] = 'debug_show_emmitter_window',
+                ['Ctrl-Alt-F4'] = 'debug_scenario_method_ctrl_alt_f3',
+                ['Ctrl-F4'] = 'debug_scenario_method_ctrl_f4',
+                ['Ctrl-Shift-W'] = 'debug_weapons',
+                ['Alt-F11'] = 'debug_show_frame_stats',
+                ['Alt-V'] = 'debug_skeletons',
+                ['Alt-N'] = 'debug_nodamage',
+                ['Alt-F2'] = 'debug_create_unit',
+                ['Shift-F8'] = 'debug_show_army_stats',
+                ['Ctrl-F10'] = 'debug_restart_session',
+                ['Ctrl-F5'] = 'debug_scenario_method_ctrl_f5',
+                ['Shift-F3'] = 'debug_scenario_method_shift_f3',
+                ['Ctrl-Shift-V'] = 'debug_paste_units',
+                ['Alt-F3'] = 'debug_scenario_method_f3',
+                ['Ctrl-Shift-F4'] = 'debug_scenario_method_f4',
+                ['Ctrl-Shift-F1'] = 'debug_toggle_pannels',
+                ['Ctrl-Alt-W'] = 'debug_render_wireframe',
+                ['Alt-A'] = 'debug_run_opponent_AI',
+                F9 = 'debug_toggle_log_window'
+            },
+            LobbyOpt_CheatsEnabled = 'false',
+            LobbyOpt_UnitCap = '1000',
+            skin = 'cybran',
+            console_fade_delay = 3,
+            Notify_other_disabled = true,
+            LobbyOpt_ShareUnitCap = 'none',
+            LastScenario = '/maps/scmp_012/scmp_012_scenario.lua',
+            Notify_tech_disabled = true,
+            Notify_acus_disabled = false,
+            options = {
+                skin_change_on_start = 'yes',
+                tooltip_delay = 0,
+                tooltips = true,
+                experimental_graphics = 0,
+                vsync = 1,
+                show_hotkeylabels = true,
+                gui_improved_unit_deselection = 1,
+                spawn_menu_filter_menu_sort = 1,
+                minimum_reclaim_amount = 10,
+                lock_fullscreen_cursor_to_window = 0,
+                music_volume = 100,
+                gui_all_race_templates = 0,
+                gui_zoom_pop_distance = 80,
+                keyboard_pan_speed = 100.5,
+                quick_exit = 'false',
+                maximum_reclaim_count = 1000,
+                texture_level = 1,
+                spawn_menu_team_columns = 4,
+                uvd_format = 'full',
+                strat_icons_always_on = 1,
+                shadow_quality = 1,
+                arrow_keys_pan_main_view = 1,
+                gui_draggable_queue = 1,
+                fx_volume = 100,
+                bloom_render = 0,
+                keyboard_rotate_speed = 10,
+                gui_render_custom_names = 0,
+                hotbuild_cycle_preview = 1,
+                master_volume = 100,
+                loading_tips = true,
+                gui_bigger_strat_build_icons = 0,
+                gui_template_rotator = 1,
+                econ_warnings = true,
+                gui_render_armament_detail = 1,
+                mainmenu_bgmovie = true,
+                gui_enhanced_unitview = 1,
+                keyboard_pan_accelerate_multiplier = 1,
+                gui_visible_template_names = 1,
+                vo_volume = 100,
+                show_attached_unit_lifebars = true,
+                fidelity = 1,
+                render_skydome = 1,
+                wheel_sensitivity = 100,
+                fidelity_presets = 4,
+                faction_font_color = false,
+                gui_render_enemy_lifebars = 0,
+                subtitles = false,
+                gui_seperate_idle_builders = 1,
+                spawn_menu_split_sources = 0,
+                gui_queue_on_hover_02 = 'always',
+                spawn_menu_filter_columns = 6,
+                world_border = true,
+                secondary_adapter = 'disabled',
+                spawn_menu_type_filter_mode = 0,
+                antialiasing = 0,
+                screen_edge_pans_main_view = 1,
+                accept_build_templates = 'yes',
+                ui_scale = 0.80000001192093,
+                primary_adapter = '1920,1080,75',
+                spawn_menu_paragon_filter = 0,
+                structure_capping_feature_01 = 'full-suite',
+                spawn_menu_notech_filter = 1,
+                keyboard_rotate_accelerate_multiplier = 2,
+                mp_taunt_head_enabled = 'true',
+                gui_detailed_unitview = 1,
+                gui_idle_engineer_avatars = 0,
+                gui_template_name_cutoff = 0,
+                level_of_detail = 1,
+                display_eta = true,
+                gui_templates_factory = 1,
+                selectedlanguage = 'us',
+                hotbuild_cycle_reset_time = 1100,
+                automex = 'onlyT1'
+            },
+            LobbyOpt_AutoTeams = 'none',
+            console_font = 'Zeroes Three',
+            layout = 'bottom',
+            LobbyOpt_LandExpansionsAllowed = '5',
+            console_font_size = 12,
+            LobbyOpt_Timeouts = '3',
+            LobbyOpt_ManualUnitShare = 'all',
+            LoadingFaction = 3,
+            LobbyOpt_Victory = 'demoralization',
+            Name = 'FAF_Skiff',
+            LobbyHideDefaultOptions = 'false',
+            Notify_Messages_ESC = {
+                other = {
+                    nuke = '\\u4E\\u75\\u6B\\u65\\u20\\u53\\u69\\u6C\\u6F\\u20\\u63\\u6F\\u6E\\u73\\u74\\u72\\u75\\u63\\u74\\u69\\u6F\\u6E',
+                    arty = '\\u54\\u65\\u63\\u68\\u20\\u33\\u20\\u41\\u72\\u74\\u69\\u6C\\u6C\\u65\\u72\\u79\\u20\\u63\\u6F\\u6E\\u73\\u74\\u72\\u75\\u63\\u74\\u69\\u6F\\u6E'
+                },
+                uef = {
+                    HeavyAntiMatterCannon = '\\u47\\u75\\u6E\\u20\\u28\\u44\\u61\\u6D\\u61\\u67\\u65\\u26\\u52\\u61\\u6E\\u67\\u65\\u29',
+                    Shield = '\\u53\\u68\\u69\\u65\\u6C\\u64',
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    AdvancedEngineering = '\\u54\\u32',
+                    RightPod = '\\u52\\u69\\u67\\u68\\u74\\u20\\u44\\u72\\u6F\\u6E\\u65',
+                    T3Engineering = '\\u54\\u33',
+                    TacticalMissile = '\\u54\\u61\\u63\\u74\\u69\\u63\\u61\\u6C\\u20\\u4D\\u69\\u73\\u73\\u69\\u6C\\u65',
+                    ResourceAllocation = '\\u52\\u41\\u53',
+                    TacticalNukeMissile = '\\u54\\u61\\u63\\u74\\u69\\u63\\u61\\u6C\\u20\\u4E\\u75\\u6B\\u65',
+                    DamageStabilization = '\\u4E\\u61\\u6E\\u6F\\u2D\\u52\\u65\\u70\\u61\\u69\\u72',
+                    ShieldGeneratorField = '\\u53\\u68\\u69\\u65\\u6C\\u64\\u20\\u46\\u69\\u65\\u6C\\u64',
+                    LeftPod = '\\u4C\\u65\\u66\\u74\\u20\\u44\\u72\\u6F\\u6E\\u65'
+                },
+                tech = {
+                    researchnavaltech3 = '\\u54\\u65\\u63\\u68\\u20\\u33\\u20\\u4E\\u61\\u76\\u61\\u6C\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchlandtech3 = '\\u54\\u65\\u63\\u68\\u20\\u33\\u20\\u4C\\u61\\u6E\\u64\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchairtech2 = '\\u54\\u65\\u63\\u68\\u20\\u32\\u20\\u41\\u69\\u72\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchnavaltech2 = '\\u54\\u65\\u63\\u68\\u20\\u32\\u20\\u4E\\u61\\u76\\u61\\u6C\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchairtech3 = '\\u54\\u65\\u63\\u68\\u20\\u33\\u20\\u41\\u69\\u72\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65',
+                    researchlandtech2 = '\\u54\\u65\\u63\\u68\\u20\\u32\\u20\\u4C\\u61\\u6E\\u64\\u20\\u48\\u51\\u20\\u75\\u70\\u67\\u72\\u61\\u64\\u65'
+                },
+                nomads = {
+                    Capacitor = '\\u43\\u61\\u70\\u61\\u63\\u69\\u74\\u6F\\u72',
+                    IntelProbeAdv = '\\u41\\u64\\u76\\u61\\u6E\\u63\\u65\\u64\\u20\\u49\\u6E\\u74\\u65\\u6C\\u20\\u50\\u72\\u6F\\u62\\u65',
+                    RapidRepair = '\\u52\\u61\\u70\\u69\\u64\\u20\\u52\\u65\\u70\\u61\\u69\\u72',
+                    OrbitalBombardment = '\\u4F\\u72\\u62\\u69\\u74\\u61\\u6C\\u20\\u42\\u6F\\u6D\\u62\\u61\\u72\\u64\\u6D\\u65\\u6E\\u74',
+                    AdvancedEngineering = '\\u54\\u32',
+                    MovementSpeedIncrease = '\\u4C\\u6F\\u63\\u6F\\u6D\\u6F\\u74\\u6F\\u72',
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    ResourceAllocation = '\\u52\\u41\\u53',
+                    DoubleGuns = '\\u53\\u65\\u63\\u6F\\u6E\\u64\\u20\\u47\\u75\\u6E',
+                    ResourceAllocationAdvanced = '\\u41\\u52\\u41\\u53',
+                    IntelProbe = '\\u49\\u6E\\u74\\u65\\u6C\\u20\\u50\\u72\\u6F\\u62\\u65',
+                    GunUpgrade = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u65\\u65\\u64\\u26\\u52\\u61\\u6E\\u67\\u65\\u29',
+                    T3Engineering = '\\u54\\u33',
+                    PowerArmor = '\\u50\\u6F\\u77\\u65\\u72\\u20\\u41\\u72\\u6D\\u6F\\u72'
+                },
+                experimentals = {
+                    xeb2402 = '\\u4E\\u6F\\u76\\u61\\u78\\u20\\u53\\u61\\u74\\u65\\u6C\\u6C\\u69\\u74\\u65\\u20\\u53\\u74\\u61\\u74\\u69\\u6F\\u6E',
+                    uaa0310 = '\\u43\\u7A\\u61\\u72',
+                    ual0401 = '\\u47\\u61\\u6C\\u61\\u63\\u74\\u69\\u63\\u20\\u43\\u6F\\u6C\\u6F\\u73\\u73\\u75\\u73',
+                    url0402 = '\\u4D\\u6F\\u6E\\u6B\\u65\\u79\\u6C\\u6F\\u72\\u64',
+                    ueb2401 = '\\u4D\\u61\\u76\\u6F\\u72',
+                    ues0401 = '\\u41\\u74\\u6C\\u61\\u6E\\u74\\u69\\u73',
+                    uel0401 = '\\u46\\u61\\u74\\u62\\u6F\\u79',
+                    xsb2401 = '\\u59\\u6F\\u6C\\u6F\\u6E\\u61\\u20\\u4F\\u73\\u73',
+                    xsl0401 = '\\u59\\u74\\u68\\u6F\\u74\\u68\\u61',
+                    uas0401 = '\\u54\\u65\\u6D\\u70\\u65\\u73\\u74',
+                    xsa0402 = '\\u41\\u68\\u77\\u61\\u73\\u73\\u61',
+                    xab1401 = '\\u50\\u61\\u72\\u61\\u67\\u6F\\u6E',
+                    ura0401 = '\\u53\\u6F\\u75\\u6C\\u72\\u69\\u70\\u70\\u65\\u72',
+                    xrl0403 = '\\u4D\\u65\\u67\\u61\\u6C\\u69\\u74\\u68',
+                    url0401 = '\\u53\\u63\\u61\\u74\\u68\\u69\\u73'
+                },
+                seraphim = {
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    RegenAura = '\\u52\\u65\\u67\\u65\\u6E\\u20\\u41\\u75\\u72\\u61',
+                    AdvancedEngineering = '\\u54\\u32',
+                    T3Engineering = '\\u54\\u33',
+                    Missile = '\\u54\\u61\\u63\\u74\\u69\\u63\\u61\\u6C\\u20\\u4D\\u69\\u73\\u73\\u69\\u6C\\u65',
+                    DamageStabilizationAdvanced = '\\u41\\u64\\u76\\u61\\u6E\\u63\\u65\\u64\\u20\\u4E\\u61\\u6E\\u6F\\u2D\\u52\\u65\\u70\\u61\\u69\\u72',
+                    ResourceAllocationAdvanced = '\\u41\\u52\\u41\\u53',
+                    ResourceAllocation = '\\u52\\u41\\u53',
+                    BlastAttack = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u6C\\u61\\u73\\u68\\u29',
+                    DamageStabilization = '\\u4E\\u61\\u6E\\u6F\\u2D\\u52\\u65\\u70\\u61\\u69\\u72',
+                    AdvancedRegenAura = '\\u41\\u64\\u76\\u61\\u6E\\u63\\u65\\u64\\u20\\u52\\u65\\u67\\u65\\u6E\\u20\\u41\\u75\\u72\\u61',
+                    RateOfFire = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u65\\u65\\u64\\u26\\u52\\u61\\u6E\\u67\\u65\\u29'
+                },
+                cybran = {
+                    CoolingUpgrade = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u65\\u65\\u64\\u26\\u52\\u61\\u6E\\u67\\u65\\u29',
+                    AdvancedEngineering = '\\u54\\u32',
+                    CloakingGenerator = '\\u43\\u6C\\u6F\\u61\\u6B\\u69\\u6E\\u67',
+                    StealthGenerator = '\\u53\\u74\\u65\\u61\\u6C\\u74\\u68',
+                    ResourceAllocation = '\\u52\\u41\\u53',
+                    MicrowaveLaserGenerator = '\\u4C\\u61\\u73\\u65\\u72',
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    T3Engineering = '\\u54\\u33',
+                    NaniteTorpedoTube = '\\u54\\u6F\\u72\\u70\\u65\\u64\\u6F'
+                },
+                aeon = {
+                    ShieldHeavy = '\\u53\\u68\\u69\\u65\\u6C\\u64\\u20\\u48\\u65\\u61\\u76\\u79',
+                    Shield = '\\u53\\u68\\u69\\u65\\u6C\\u64',
+                    AdvancedEngineering = '\\u54\\u32',
+                    ChronoDampener = '\\u43\\u68\\u72\\u6F\\u6E\\u6F\\u20\\u44\\u61\\u6D\\u70\\u65\\u6E\\u65\\u72',
+                    CrysalisBeam = '\\u47\\u75\\u6E\\u20\\u28\\u52\\u61\\u6E\\u67\\u65\\u29',
+                    HeatSink = '\\u47\\u75\\u6E\\u20\\u28\\u53\\u70\\u65\\u65\\u64\\u29',
+                    ResourceAllocationAdvanced = '\\u41\\u52\\u41\\u53',
+                    EnhancedSensors = '\\u53\\u65\\u6E\\u73\\u6F\\u72\\u73',
+                    Teleporter = '\\u54\\u65\\u6C\\u65\\u70\\u6F\\u72\\u74\\u65\\u72',
+                    T3Engineering = '\\u54\\u33',
+                    ResourceAllocation = '\\u52\\u41\\u53'
+                }
+            },
+            LobbyOpt_BuildMult = '2.0',
+            LobbyOpt_ScenarioFile = '/maps/scmp_012/scmp_012_scenario.lua',
+            Notify_experimentals_disabled = true,
+            Notify_all_disabled = false,
+            LobbyOpt_GameSpeed = 'normal',
+            LobbyOpt_CheatMult = '2.0',
+            Notify_custom_disabled = false,
+            console_font_color = 'FFbadbdb',
+            LobbyOpt_PrebuiltUnits = 'Off',
+            Notify_nomads_disabled = true,
+            LobbyOpt_TeamSpawn = 'fixed',
+            LobbyOpt_NoRushOption = 'Off',
+            activeFilters = {
+                selection = true,
+                rollover = true,
+                buildpreview = true
+            },
+            LobbyOpt_TMLRandom = '0',
+            LobbyOpt_NavalExpansionsAllowed = '4',
+            chat_window = {
+                top = 687,
+                bottom = 842,
+                height = 155,
+                right = 430,
+                left = 8,
+                width = 422
+            },
+            LobbyOpt_OmniCheat = 'on',
+            Notify_overlay_disabled = false,
+            LobbyChangelog = 3740,
+            LobbyOpt_DisconnectionDelay02 = '90',
+            UserKeyMap = {
+                ['Ctrl-Alt-F5'] = 'debug_scenario_method_ctrl_alt_f5',
+                ['Ctrl-Shift-4'] = 'fac_group4',
+                ['Ctrl-Alt-E'] = 'debug_show_emmitter_window',
+                ['Ctrl-0'] = 'set_group0',
+                ['Shift-8'] = 'append_group8',
+                End = 'split_screen_disable',
+                ['Alt-UpArrow'] = 'switch_layout_up',
+                ['Ctrl-2'] = 'set_group2',
+                F2 = 'toggle_score_screen',
+                ['Ctrl-9'] = 'set_group9',
+                ['Alt-F9'] = 'debug_open_lua_debugger',
+                ['Shift-M'] = 'shift_move',
+                ['Ctrl-F3'] = 'debug_scenario_method_ctrl_f3',
+                ['Shift-1'] = 'append_group1',
+                PageUp = 'chat_page_up',
+                ['Shift-3'] = 'append_group3',
+                ['Shift-Comma'] = 'shift_overcharge',
+                ['Ctrl-N'] = 'rename',
+                LeftBracket = 'mode',
+                ['Ctrl-5'] = 'set_group5',
+                F5 = 'ping_alert',
+                ['Ctrl-Z'] = 'select_all_units_of_same_type',
+                ['Shift-5'] = 'append_group5',
+                ['Ctrl-Shift-F1'] = 'debug_toggle_pannels',
+                ['Ctrl-Shift-7'] = 'fac_group7',
+                ['Ctrl-8'] = 'set_group8',
+                ['Alt-LeftArrow'] = 'switch_skin_down',
+                ['Shift-4'] = 'append_group4',
+                ['Ctrl-C'] = 'select_all_onscreen',
+                ['Alt-DownArrow'] = 'switch_layout_down',
+                ['Ctrl-Alt-F1'] = 'toggle_notify_customiser',
+                ['Shift-W'] = 'zoom_out_fast',
+                ['Ctrl-Shift-L'] = 'select_nearest_land_factory',
+                ['0'] = 'group0',
+                ['3'] = 'group3',
+                ['2'] = 'group2',
+                ['Ctrl-Period'] = 'select_all_eng_onscreen',
+                F4 = 'toggle_diplomacy_screen',
+                ['7'] = 'group7',
+                ['6'] = 'group6',
+                ['9'] = 'group9',
+                ['Ctrl-H'] = 'select_all_factory_onscreen',
+                Pause = 'pause',
+                A = 'land_factory',
+                C = 'select_nearest_idle_eng_not_acu',
+                B = 'toggle_build_mode',
+                ['Ctrl-3'] = 'set_group3',
+                D = 'dive',
+                G = 'spreadattack',
+                ['Ctrl-Shift-9'] = 'fac_group9',
+                I = 'guard',
+                H = 'select_nearest_factory',
+                Home = 'split_screen_enable',
+                M = 'move',
+                ['Shift-T'] = 'create_build_template',
+                N = 'nuke',
+                Q = 'power_generator',
+                P = 'patrol',
+                S = 'stop',
+                R = 'repair',
+                U = 'transport',
+                ['Ctrl-4'] = 'set_group4',
+                F7 = 'ping_attack',
+                V = 'reset_camera',
+                ['Ctrl-S'] = 'select_naval',
+                ['Ctrl-1'] = 'set_group1',
+                ['Shift-G'] = 'shift_spreadattack',
+                Z = 'pause_unit',
+                ['Ctrl-Shift-2'] = 'fac_group2',
+                ['Shift-U'] = 'shift_transport',
+                ['Ctrl-B'] = 'select_engineers',
+                ['Ctrl-Alt-B'] = 'debug_blingbling',
+                ['Shift-Period'] = 'goto_engineer',
+                ['Shift-F5'] = 'debug_scenario_method_shift_f5',
+                ['Alt-T'] = 'debug_teleport',
+                ['Shift-R'] = 'shift_repair',
+                ['Ctrl-Alt-W'] = 'debug_render_wireframe',
+                ['Ctrl-Shift-0'] = 'fac_group0',
+                T = 'track_unit',
+                ['Shift-L'] = 'shift_launch_tactical',
+                F12 = 'show_objective_screen',
+                ['Shift-PageDown'] = 'chat_line_down',
+                ['Ctrl-F4'] = 'debug_scenario_method_ctrl_f4',
+                ['Ctrl-Shift-C'] = 'debug_copy_units',
+                ['Shift-I'] = 'shift_guard',
+                F11 = 'toggle_disconnect_screen',
+                ['Ctrl-X'] = 'select_all',
+                ['Ctrl-Shift-S'] = 'select_nearest_naval_factory',
+                ['Ctrl-Shift-V'] = 'debug_paste_units',
+                ['Shift-F'] = 'shift_ferry',
+                ['Ctrl-A'] = 'select_air',
+                ['8'] = 'group8',
+                L = 'launch_tactical',
+                ['Ctrl-T'] = 'suicide',
+                F10 = 'toggle_main_menu',
+                ['Ctrl-Alt-O'] = 'debug_grid',
+                ['Ctrl-Alt-T'] = 'track_unit_second_mon',
+                Quote = 'air_factory',
+                NumMinus = 'decrease_game_speed',
+                ['Alt-R'] = 'toggle_reclaim_labels',
+                ['Shift-F6'] = 'debug_create_entity',
+                Period = 'cycle_engineers',
+                F1 = 'toggle_key_bindings',
+                NumStar = 'reset_game_speed',
+                ['Ctrl-Shift-A'] = 'select_nearest_air_factory',
+                ['Ctrl-Shift-X'] = 'debug_redo_console_command',
+                ['Ctrl-Shift-1'] = 'fac_group1',
+                ['Alt-RightArrow'] = 'switch_skin_up',
+                ['Shift-Tab'] = 'add_cam_position',
+                ['Shift-F3'] = 'debug_scenario_method_shift_f3',
+                ['Shift-2'] = 'append_group2',
+                F6 = 'ping_move',
+                ['Ctrl-Alt-Z'] = 'debug_sally_shears',
+                ['Shift-7'] = 'append_group7',
+                ['Shift-F8'] = 'debug_show_army_stats',
+                ['Alt-D'] = 'debug_dump_ui_controls',
+                F9 = 'debug_toggle_log_window',
+                ['Alt-Comma'] = 'select_commander',
+                ['Ctrl-Shift-8'] = 'fac_group8',
+                F = 'ferry',
+                ['Ctrl-E'] = 'tog_defense',
+                Comma = 'overcharge',
+                ['Shift-F4'] = 'debug_scenario_method_shift_f4',
+                ['Ctrl-Alt-P'] = 'debug_navpath',
+                ['Alt-Period'] = 'select_idle_engineer',
+                ['Alt-N'] = 'debug_nodamage',
+                ['Shift-D'] = 'shift_dive',
+                ['Ctrl-Shift-F5'] = 'debug_scenario_method_f5',
+                ['Ctrl-W'] = 'tog_military',
+                NumPlus = 'increase_game_speed',
+                ['Shift-S'] = 'shift_stop',
+                W = 'zoom_out',
+                Esc = 'escape',
+                ['Ctrl-Slash'] = 'debug_pause_single_step',
+                ['Ctrl-6'] = 'set_group6',
+                ['Shift-0'] = 'append_group0',
+                ['Ctrl-Alt-Shift-F8'] = 'debug_campaign_instawin',
+                E = 'reclaim',
+                ['Ctrl-Shift-T'] = 'track_unit_minimap',
+                ['Shift-N'] = 'shift_nuke',
+                ['Ctrl-Shift-Alt-C'] = 'debug_collision',
+                Semicolon = 'radar_system',
+                ['Alt-L'] = 'toggle_lifebars',
+                ['Ctrl-R'] = 'tog_econ',
+                ['Alt-W'] = 'debug_dump_focus_ui_control',
+                F3 = 'quick_save',
+                ['Ctrl-F'] = 'cap_frame',
+                F8 = 'ping_marker',
+                Tab = 'next_cam_position',
+                ['Alt-V'] = 'debug_skeletons',
+                ['Ctrl-Tab'] = 'rem_cam_position',
+                ['Alt-F2'] = 'debug_create_unit',
+                ['4'] = 'group4',
+                ['Alt-Delete'] = 'debug_destroy_units',
+                ['Ctrl-Alt-Period'] = 'debug_graphics_fidelity_2',
+                PageDown = 'chat_page_down',
+                ['Ctrl-7'] = 'set_group7',
+                ['Shift-6'] = 'append_group6',
+                ['1'] = 'group1',
+                ['Alt-B'] = 'debug_bones',
+                ['Ctrl-Shift-5'] = 'fac_group5',
+                NumSlash = 'show_fps',
+                ['Ctrl-Shift-3'] = 'fac_group3',
+                ['Ctrl-Alt-F4'] = 'debug_scenario_method_ctrl_alt_f3',
+                ['Ctrl-Alt-Comma'] = 'debug_graphics_fidelity_0',
+                ['Ctrl-Shift-W'] = 'debug_weapons',
+                ['Shift-E'] = 'shift_reclaim',
+                ['Shift-9'] = 'append_group9',
+                ['Ctrl-V'] = 'cam_free',
+                ['Shift-F7'] = 'debug_show_stats',
+                ['5'] = 'group5',
+                ['Shift-PageUp'] = 'chat_line_up',
+                ['Ctrl-F5'] = 'debug_scenario_method_ctrl_f5',
+                ['Alt-F11'] = 'debug_show_frame_stats',
+                ['Ctrl-Shift-6'] = 'fac_group6',
+                ['Alt-F3'] = 'debug_scenario_method_f3',
+                ['Ctrl-Shift-F4'] = 'debug_scenario_method_f4',
+                ['Ctrl-F10'] = 'debug_restart_session',
+                ['Shift-P'] = 'shift_patrol',
+                ['Alt-A'] = 'debug_run_opponent_AI',
+                ['Ctrl-L'] = 'select_land'
+            },
+            LobbyOpt_TeamLock = 'locked',
+            LobbyOpt_AllowObservers = false,
+            LobbyOpt_Unranked = 'No',
+            LastFaction = 3,
+            LobbyOpt_Score = 'no',
+            LobbyPresets = {
+                {
+                    GameMods = { },
+                    Name = 'lastGame',
+                    MapPath = '/maps/scmp_012/scmp_012_scenario.lua',
+                    PlayerOptions = {
+                        {
+                            MEAN = 1887.8299560547,
+                            StartSpot = 1,
+                            ArmyColor = 1,
+                            PlayerClan = '',
+                            NG = 698,
+                            Team = 1,
+                            Ready = true,
+                            PlayerColor = 1,
+                            Civilian = false,
+                            PlayerName = 'Skiff',
+                            AIPersonality = '',
+                            ObserverListIndex = -1,
+                            Faction = 3,
+                            Country = 'fi',
+                            OwnerID = '4702',
+                            PL = 1700,
+                            Human = true,
+                            BadMap = false,
+                            DEV = 49.848499298096
+                        }
+                    },
+                    MapName = 'Theta Passage',
+                    GameOptions = {
+                        DisconnectionDelay02 = '90',
+                        CheatsEnabled = 'false',
+                        Score = 'no',
+                        RevealCivilians = 'Yes',
+                        AllowObservers = false,
+                        Victory = 'sandbox',
+                        ShareUnitCap = 'none',
+                        Timeouts = '3',
+                        Unranked = 'No',
+                        TeamSpawn = 'fixed',
+                        NavalExpansionsAllowed = '4',
+                        GameSpeed = 'normal',
+                        TMLRandom = '0',
+                        FogOfWar = 'explored',
+                        Share = 'ShareUntilDeath',
+                        UnitCap = '1000',
+                        BuildMult = '2.0',
+                        LandExpansionsAllowed = '5',
+                        AIReplacement = 'Off',
+                        RandomMap = 'Off',
+                        CheatMult = '2.0',
+                        AutoTeams = 'none',
+                        TeamLock = 'locked',
+                        NoRushOption = 'Off',
+                        ManualUnitShare = 'all',
+                        ScenarioFile = '/maps/scmp_012/scmp_012_scenario.lua',
+                        PrebuiltUnits = 'Off',
+                        OmniCheat = 'on',
+                        CivilianAlliance = 'enemy'
+                    }
+                }
+            },
+            LobbyOpt_AIReplacement = 'Off',
+            LobbyOpt_RandomMap = 'Off',
+            LobbyOpt_FogOfWar = 'explored',
+            LobbyOpt_RevealCivilians = 'Yes',
+            LobbyOpt_Share = 'ShareUntilDeath',
+            mini_ui_minimap = {
+                top = 157,
+                bottom = 367,
+                height = 210,
+                right = 237,
+                left = 10,
+                width = 227
+            }
+        }
+    }
+}
+version = {
+    major = 1
+}
+Windows = {
+    Main = {
+        y = 0,
+        x = 0
+    },
+    Debug = {
+        y = 10,
+        x = 10,
+        height = 550,
+        Watch = {
+            Stack = {
+                block = 154,
+                source = 212,
+                line = 72
+            },
+            Global = {
+                value = 212,
+                type = 215,
+                name = 220
+            },
+            Local = {
+                value = 212,
+                type = 134,
+                name = 217
+            }
+        },
+        width = 900,
+        Sash = {
+            horizontal = 212,
+            vertical = 330
+        }
+    }
+}
+active_mods = { }
